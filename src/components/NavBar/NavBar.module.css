@@ -1,0 +1,17 @@
+.navHeader {
+  color: var(--clr-green-1) !important;
+  font-size: 1.6rem !important;
+  font-weight: 700;
+  cursor: pointer;
+}
+.navLink {
+  color: var(--clr-green-1) !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+.active {
+  color: var(--text-primary-yellow) !important;
+}
+.btn {
+  border: none;
+}

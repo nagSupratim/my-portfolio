@@ -1,0 +1,25 @@
+.people img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.people a {
+  text-decoration: none;
+  color: var(--clr-black-1);
+}
+.people h4 {
+  font-size: 1.2rem;
+}
+.people h6 {
+  font-size: 0.9rem;
+  color: var(--clr-grey-1);
+}
+.people section {
+  font-size: 1rem;
+  text-align: center;
+}
+.people section p {
+  color: var(--clr-grey-2);
+  letter-spacing: 0.5px;
+}

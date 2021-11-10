@@ -1,0 +1,15 @@
+.heading {
+  position: relative;
+  display: inline-block;
+  color: var(--text-heading);
+  font-weight: bold;
+}
+
+.heading::after {
+  content: '';
+  position: absolute;
+  width: 110%;
+  border-bottom: 5px solid var(--clr-orange);
+  bottom: -12px;
+  left: 0;
+}

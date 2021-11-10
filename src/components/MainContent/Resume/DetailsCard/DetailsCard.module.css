@@ -1,0 +1,48 @@
+.details {
+  margin: 5px;
+  min-height: 100px;
+  padding: 10px;
+  margin-left: 50px;
+  position: relative;
+}
+.details::before {
+  position: absolute;
+  content: '.';
+  left: -40px;
+  top: -100px;
+  font-size: 7rem;
+  color: var(--clr-green-2);
+}
+.details::after {
+  content: '';
+  position: absolute;
+  border-left: 2px solid var(--clr-green-2);
+  height: 105%;
+  top: 20px;
+  left: -29px;
+}
+.details h4,
+.details p {
+  color: var(--bg-header);
+}
+.details h4 {
+  font-size: 1.2rem;
+}
+.details p {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.details section {
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.details section span {
+  background-color: var(--text-primary-yellow);
+  padding: 5px 10px;
+  border-radius: 530px;
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}

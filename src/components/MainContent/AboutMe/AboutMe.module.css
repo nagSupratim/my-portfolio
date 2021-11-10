@@ -1,0 +1,19 @@
+.aboutMeSection h2 {
+  position: relative;
+  display: inline-block;
+}
+.aboutMeSection h2::after {
+  content: '';
+  position: absolute;
+  width: 110%;
+  border-bottom: 5px solid var(--clr-orange);
+  bottom: -12px;
+  left: 0;
+}
+.myImage {
+  width: 100%;
+}
+
+.myImage img {
+  max-width: 500px;
+}
