@@ -9,10 +9,10 @@ const Project = ({ data, src }) => {
         <img src={src} alt="" />
       </CardTemplate>
       <div className={classes.actions}>
-        <a href={data.hosturl} target="_blank">
+        <a href={data.hosturl} target="_blank" rel="noreferrer">
           <i className="bx bx-globe"></i>
         </a>
-        <a href={data.repourl} target="_blank">
+        <a href={data.repourl} target="_blank" rel="noreferrer">
           <i className="bx bxl-github"></i>
         </a>
       </div>

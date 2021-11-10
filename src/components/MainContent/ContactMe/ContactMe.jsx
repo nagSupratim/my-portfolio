@@ -36,6 +36,7 @@ const ContactMe = () => {
               <a
                 href="https://www.google.com/maps/d/viewer?f=q&hl=en&geocode&ie=UTF8&msa=0&ll=12.900951695519925%2C77.68759929999997&spn=0.234187%2C0.291824&z=14&source=embed&mid=1k35Ia3iDr0SyJaMdv2N6c2_AUvw"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="bx bx-location-plus"></i>
               </a>

@@ -42,16 +42,22 @@ const Header = () => {
                 <a
                   href="https://www.linkedin.com/in/nagsupratim/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="bx bxl-linkedin"></i>
                 </a>
                 <a
                   href="https://github.com/nagSupratim/pig-game"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="bx bxl-github"></i>
                 </a>
-                <a href="mailto:supratimnag1997@gmail.com" target="_blank">
+                <a
+                  href="mailto:supratimnag1997@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="bx bx-mail-send"></i>
                 </a>
               </div>
