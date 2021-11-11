@@ -1,12 +1,9 @@
 import React from 'react';
-import { Button, Form } from 'react-bootstrap';
 import Heading from '../../ui/Heading/Heading';
+import ContactForm from './ContactForm/ContactForm';
 import classes from './ContactMe.module.css';
 
 const ContactMe = () => {
-  const onSendMessage = (e) => {
-    e.preventDefault();
-  };
   return (
     <div className={`pb-5 mb-5`} id="contact">
       <div className="d-flex justify-content-center mb-5">
@@ -45,39 +42,7 @@ const ContactMe = () => {
           </div>
         </div>
         <div className="col-12 col-lg-6 bg-tertiary-color p-5">
-          <Form className="px-lg-5" onSubmit={onSendMessage}>
-            <Form.Group className="mb-3">
-              <Form.Label>
-                First & Last Name <span className={classes.red}>*</span>
-              </Form.Label>
-              <Form.Control type="text" />
-            </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label>
-                Phone number <span className={classes.red}>*</span>
-              </Form.Label>
-              <Form.Control type="tel" />
-            </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label>
-                Email address <span className={classes.red}>*</span>
-              </Form.Label>
-              <Form.Control type="email" />
-            </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Label>
-                Message <span className={classes.red}>*</span>
-              </Form.Label>
-              <Form.Control
-                as="textarea"
-                placeholder="Leave a comment here"
-                style={{ height: '100px' }}
-              />
-            </Form.Group>
-            <Button variant="warning" className="px-5" type="submit">
-              Send Message
-            </Button>
-          </Form>
+          <ContactForm className="px-lg-5" />
         </div>
       </div>
     </div>
