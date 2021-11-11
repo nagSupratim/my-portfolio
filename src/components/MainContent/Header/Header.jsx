@@ -47,7 +47,7 @@ const Header = () => {
                   <i className="bx bxl-linkedin"></i>
                 </a>
                 <a
-                  href="https://github.com/nagSupratim/pig-game"
+                  href="https://github.com/nagSupratim"
                   target="_blank"
                   rel="noreferrer"
                 >
