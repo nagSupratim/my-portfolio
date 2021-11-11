@@ -8,7 +8,7 @@
 .heading::after {
   content: '';
   position: absolute;
-  width: 110%;
+  width: 100%;
   border-bottom: 5px solid var(--clr-orange);
   bottom: -12px;
   left: 0;

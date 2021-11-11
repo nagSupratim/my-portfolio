@@ -26,7 +26,7 @@ const AboutMe = () => {
           </div>
           <div className="col-12 col-md-6 d-flex align-items-center">
             <div className="d-flex flex-column pe-3">
-              <section className={classes.aboutMeSection}>
+              <section>
                 <Heading className="mb-5">About Me</Heading>
                 <p className="text-green-1">
                   I'm a Software Engineer, front-end developer with 2 years of
