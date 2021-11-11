@@ -3,7 +3,7 @@ import classes from './PeoplesCard.module.css';
 const PeoplesCard = ({ data }) => {
   return (
     <div
-      className={`${classes.people} d-flex flex-column justify-content-center align-items-center my-5`}
+      className={`${classes.people} d-flex flex-column justify-content-start align-items-center mt-4 mb-5`}
     >
       <img src={data.prof} alt={data.user} />
       <a href={data.linkedin} target="_blank" rel="noreferrer" className="mt-2">

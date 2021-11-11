@@ -8,7 +8,7 @@ const ContactMe = () => {
     e.preventDefault();
   };
   return (
-    <div className={`${classes.contact} pb-5 mb-5`} id="contact">
+    <div className={`pb-5 mb-5`} id="contact">
       <div className="d-flex justify-content-center mb-5">
         <Heading>Contact Me</Heading>
       </div>

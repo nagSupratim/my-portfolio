@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Carousel } from 'react-bootstrap';
 import CardTemplate from '../../ui/CardTemplate/CardTemplate';
 import Heading from '../../ui/Heading/Heading';
 import PeoplesCard from './PeoplesCard/PeoplesCard';
@@ -28,6 +29,11 @@ const testimonialData = [
   },
 ];
 const Testimonials = () => {
+  const [index, setIndex] = useState(0);
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
   return (
     <div>
       <div className="d-flex justify-content-center mb-5">
@@ -36,15 +42,24 @@ const Testimonials = () => {
       <div className="my-5 ">
         <CardTemplate className="p-0 pt-3">
           <div className="row">
-            {testimonialData.map((data, i) => {
-              let cls = 'col-12 d-none d-lg-block col-lg-4';
-              if (i === 0) cls = 'col-12 col-lg-4';
-              return (
-                <div className={cls} key={i}>
-                  <PeoplesCard data={data} />
-                </div>
-              );
-            })}
+            <div className="d-md-none col-12">
+              <Carousel
+                activeIndex={index}
+                variant="dark"
+                onSelect={handleSelect}
+              >
+                {testimonialData.map((data, i) => (
+                  <Carousel.Item key={i}>
+                    <PeoplesCard data={data} />
+                  </Carousel.Item>
+                ))}
+              </Carousel>
+            </div>
+            {testimonialData.map((data, i) => (
+              <div className="d-none d-md-block col-12 col-lg-4" key={i}>
+                <PeoplesCard data={data} />
+              </div>
+            ))}
           </div>
           <footer
             className={`${classes.footer} d-flex justify-content-center align-items-center`}

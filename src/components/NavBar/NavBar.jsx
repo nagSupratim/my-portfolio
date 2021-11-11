@@ -38,7 +38,9 @@ const NavBar = () => {
           <Nav className="mx-lg-5 px-lg-5">
             {navData.map((data, i) => (
               <Link
-                className={`${classes.navLink} px-4 py-4 py-lg-0`}
+                className={`${classes.navLink} px-4 py-4 py-lg-0 ${
+                  data.link === 'portfolio' ? 'd-none d-lg-flex' : ''
+                }`}
                 key={i}
                 activeClass={classes.active}
                 offset={-80}
