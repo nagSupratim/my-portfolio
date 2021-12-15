@@ -4,7 +4,7 @@ import classes from './Project.module.css';
 
 const Project = ({ data, src }) => {
   return (
-    <div className={`col-${data.colSize} ${classes.project} mb-3`}>
+    <div className={`col-4 ${classes.project} mb-3`}>
       <CardTemplate>
         <img src={src} alt="" />
       </CardTemplate>

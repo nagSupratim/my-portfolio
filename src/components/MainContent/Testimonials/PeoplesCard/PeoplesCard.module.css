@@ -14,6 +14,10 @@
 .people h4 {
   font-size: 1.2rem;
 }
+.people h5 {
+  font-size: 1rem;
+  color: var(--clr-grey-3);
+}
 .people h6 {
   font-size: 0.9rem;
   color: var(--clr-grey-1);

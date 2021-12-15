@@ -9,7 +9,8 @@ const PeoplesCard = ({ data }) => {
       <a href={data.linkedin} target="_blank" rel="noreferrer" className="mt-2">
         <h4>{data.user}</h4>
       </a>
-      <h6>{data.org}</h6>
+      <h5>{data.org}</h5>
+      <h6>{data.designation}</h6>
       <section className="mt-3 px-5">
         <p>{data.rec}</p>
       </section>

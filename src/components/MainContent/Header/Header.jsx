@@ -5,7 +5,7 @@ import myImage from '../../../assets/images/myImages/my-photo.png';
 import { animateScroll as scroll } from 'react-scroll';
 
 const cvUrl =
-  "https://firebasestorage.googleapis.com/v0/b/personal-db-8a6c3.appspot.com/o/Supratim's%20Resume.pdf?alt=media&token=af6dd510-6897-4cd3-a84e-05fd72722f11";
+  'https://drive.google.com/file/d/123unHef3uz39Au5VkwS1ns07coaznoNs/view?usp=sharing';
 
 const Header = () => {
   return (
@@ -18,7 +18,7 @@ const Header = () => {
                 <div>Hi,&nbsp;</div>
                 <div>I am Supratim Nag</div>
               </div>
-              <span className="text-white fw-bold">A Front-end Developer</span>
+              <span className="text-white fw-bold">A Web Developer</span>
             </div>
             <div className="text-light pt-5 fs-6">
               Get ready to turn ideas into reality

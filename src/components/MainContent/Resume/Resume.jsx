@@ -9,17 +9,17 @@ const experienceDetails = [
   {
     title: 'Web Developer - FULLTIME',
     org: 'Wipro, Bangalore',
-    year: '2021 - Pres',
+    year: '2020 - Pres',
   },
   {
-    title: 'Project Engineer - FULLTIME',
+    title: 'Migration Engineer - FULLTIME',
     org: 'Wipro, Bangalore',
-    year: '2020 - 2021',
+    year: '2019 - 2020',
   },
   {
     title: 'Web Developer - Trainee',
     org: 'Wipro, Hyderabad',
-    year: '2019 - 2020',
+    year: '2019 - 2019',
   },
 ];
 const educationDetails = [
