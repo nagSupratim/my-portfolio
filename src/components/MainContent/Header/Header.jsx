@@ -1,15 +1,13 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
-import classes from './Header.module.css';
-import myImage from '../../../assets/images/myImages/my-photo.png';
-import { animateScroll as scroll } from 'react-scroll';
+import React from "react";
+import { Button } from "react-bootstrap";
+import classes from "./Header.module.css";
+import { animateScroll as scroll } from "react-scroll";
 
-const cvUrl =
-  'https://drive.google.com/file/d/123unHef3uz39Au5VkwS1ns07coaznoNs/view?usp=sharing';
+const cvUrl = "https://drive.google.com/file/d/1RVdvYx-FbMZyZuCNvbEIIFaCA9HVoN39/view?usp=sharing";
 
 const Header = () => {
   return (
-    <div className={`${classes.header} p-3 p-lg-5 pb-0 pb-lg-0`} id="home">
+    <div className={`${classes.header} p-3 p-lg-5`} id="home">
       <div className="container-fluid-sm container-md">
         <div className="row">
           <div className="col-12 col-lg-6 d-flex flex-column">
@@ -20,53 +18,28 @@ const Header = () => {
               </div>
               <span className="text-white fw-bold">A Web Developer</span>
             </div>
-            <div className="text-light pt-5 fs-6">
-              Get ready to turn ideas into reality
-            </div>
+            <div className="text-light pt-5 fs-6">Get ready to turn ideas into reality</div>
             <div>
               <div className="">
-                <Button
-                  className={`${classes.btnHire} m-3 ms-0 px-5 py-2`}
-                  onClick={() => scroll.scrollToBottom()}
-                >
+                <Button className={`${classes.btnHire} m-3 ms-0 px-5 py-2`} onClick={() => scroll.scrollToBottom()}>
                   Hire Me
                 </Button>
-                <Button
-                  className={`my-4 px-5 py-2 ${classes.btnResume}`}
-                  onClick={() => window.open(cvUrl, '_blank')}
-                >
+                <Button className={`my-4 px-5 py-2 ${classes.btnResume}`} onClick={() => window.open(cvUrl, "_blank")}>
                   Get Resume
                 </Button>
               </div>
               <div className={classes.links}>
-                <a
-                  href="https://www.linkedin.com/in/nagsupratim/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://www.linkedin.com/in/nagsupratim/" target="_blank" rel="noreferrer">
                   <i className="bx bxl-linkedin"></i>
                 </a>
-                <a
-                  href="https://github.com/nagSupratim"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://github.com/nagSupratim" target="_blank" rel="noreferrer">
                   <i className="bx bxl-github"></i>
                 </a>
-                <a
-                  href="mailto:supratimnag1997@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="mailto:supratimnag1997@gmail.com" target="_blank" rel="noreferrer">
                   <i className="bx bx-mail-send"></i>
                 </a>
               </div>
             </div>
-          </div>
-          <div
-            className={`col-12 col-lg-6 d-flex justify-content-center ${classes.myImage}`}
-          >
-            <img src={myImage} alt="supratim-nag" />
           </div>
         </div>
       </div>

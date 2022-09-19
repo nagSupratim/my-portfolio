@@ -1,25 +1,25 @@
 import React from 'react';
 import Heading from '../../ui/Heading/Heading';
-import myImage from '../../../assets/images/myImages/my-photo.png';
+import myImage from '../../../assets/images/myImages/my-photo-3.png';
 import classes from './Resume.module.css';
 import CardTemplate from '../../ui/CardTemplate/CardTemplate';
 import DetailsCard from './DetailsCard/DetailsCard';
 
 const experienceDetails = [
   {
-    title: 'Web Developer - FULLTIME',
-    org: 'Wipro, Bangalore',
-    year: '2020 - Pres',
+    title: 'Senior Software Engineer - I',
+    org: 'MakeMyTrip India Private Limited',
+    year: 'Apr 2022 - Present',
   },
   {
-    title: 'Migration Engineer - FULLTIME',
+    title: 'Software Engineer',
     org: 'Wipro, Bangalore',
-    year: '2019 - 2020',
+    year: 'Jan 2020 - Apr 2022',
   },
   {
     title: 'Web Developer - Trainee',
     org: 'Wipro, Hyderabad',
-    year: '2019 - 2019',
+    year: 'Oct 2019 - Dec 2019',
   },
 ];
 const educationDetails = [
