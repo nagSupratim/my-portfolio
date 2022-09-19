@@ -2,7 +2,7 @@ import React from 'react';
 import CardTemplate from '../../ui/CardTemplate/CardTemplate';
 import Heading from '../../ui/Heading/Heading';
 import classes from './AboutMe.module.css';
-import myImage from '../../../assets/images/myImages/my-photo-2.png';
+import myImage from '../../../assets/images/myImages/my-photo.png';
 
 const skillsData = [
   { name: 'html5', class: 'bx bxl-html5' },

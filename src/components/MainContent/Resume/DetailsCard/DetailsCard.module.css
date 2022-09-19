@@ -7,14 +7,14 @@
 }
 .details::before {
   position: absolute;
-  content: '.';
+  content: ".";
   left: -40px;
   top: -100px;
   font-size: 7rem;
   color: var(--clr-green-2);
 }
 .details::after {
-  content: '';
+  content: "";
   position: absolute;
   border-left: 2px solid var(--clr-green-2);
   height: 105%;
@@ -45,4 +45,8 @@
   color: white;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
+  width: 100%;
+  display: block;
+  width: 170px;
+  text-align: center;
 }

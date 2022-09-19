@@ -1,5 +1,6 @@
 .header {
   background-color: var(--bg-header);
+  padding-bottom: 30px;
 }
 .myImage img {
   max-width: 350px;
