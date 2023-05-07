@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import classes from "./Header.module.css";
 import { animateScroll as scroll } from "react-scroll";
 
-const cvUrl = "https://drive.google.com/file/d/1pQkCh43Ejx4FeoNv832cNh1IeRWh7If9/view?usp=share_link";
+const cvUrl = "https://drive.google.com/file/d/1OHD9dQSJbqRHy2qcdhyQNh9-UGT2fq17/view?usp=share_link";
 
 const Header = () => {
   return (
