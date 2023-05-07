@@ -29,7 +29,7 @@ const AboutMe = () => {
               <section>
                 <Heading className="mb-5">About Me</Heading>
                 <p className="text-green-1">
-                  I'm a Software Engineer, front-end developer with 2 years of
+                  I'm a Software Engineer, UI developer with {((Date.now() - 1569868200000)/(1000 * 60 * 60 * 24 * 30 * 12)).toFixed(1)} years of
                   professional experience. I'm interested in all kinds of web
                   app development, but my major focus is on designing web,
                   mobile & tablet interfaces. I also have skills in other fields
